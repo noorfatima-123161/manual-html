@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+</head>
+<body>
+
+    <h1>Survey Form</h1>
+    <p>Let us know how we can improve freeCodeCamp</p>
+
+    <form action="#" method="post">
+
+        <label for="name">* Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="email">* Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Age">
+        <br><br>
+
+        <label for="role">Which option best describes your current role?</label>
+        <select id="role" name="role">
+            <option value="student">Student</option>
+            <option value="developer">Developer</option>
+            <option value="intern">Intern</option>
+        </select>
+        <br><br>
+
+        <p>* How likely is that you would recommend freeCodeCamp to a friend?</p>
+
+        <input type="radio" id="definitely" name="recommend" value="definitely">
+        <label for="definitely">Definitely</label><br>
+
+        <input type="radio" id="maybe" name="recommend" value="maybe">
+        <label for="maybe">Maybe</label><br>
+
+        <input type="radio" id="not-sure" name="recommend" value="not-sure">
+        <label for="not-sure">Not sure</label>
+
+        <br><br>
+
+        <label for="like-most">What do you like most in FCC:</label>
+        <select id="like-most" name="like-most">
+            <option value="">Select an option</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="lessons">Lessons</option>
+        </select>
+
+        <br><br>
+
+        <p>Things that should be improved in the future (Check all that apply):</p>
+
+        <input type="checkbox" id="front-end" name="improve" value="front-end">
+        <label for="front-end">Front-end Projects</label><br>
+
+        <input type="checkbox" id="back-end" name="improve" value="back-end">
+        <label for="back-end">Back-end Projects</label><br>
+
+        <input type="checkbox" id="data-viz" name="improve" value="data-viz">
+        <label for="data-viz">Data Visualization</label>
+
+        <br><br>
+
+    </form>
+
+</body>
+</html>
