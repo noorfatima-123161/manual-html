@@ -24,4 +24,4 @@ I learned how to build a proper webpage layout using semantic HTML and how to or
 
 VIDEO LINK FOR VERSION A OF MANUAL ASSIGNMENT
 
-(Insert your video link here)
+https://www.loom.com/share/33d0d3d7a91a42d3b818a63b97e5af3f
